@@ -116,7 +116,7 @@ def randomforest():
     # calculating accuracy 
     from sklearn.metrics import accuracy_score
     y_pred=clf4.predict(X_test)
-    print("Random Forest")
+    print("The Random Forest")
     print("Accuracy")
     print(accuracy_score(y_test, y_pred))
     
@@ -151,7 +151,7 @@ def NaiveBayes():
    
     from sklearn.metrics import accuracy_score
     y_pred=gnb.predict(X_test)
-    print("Naive Bayes")
+    print("The Naive Bayes")
     print("Accuracy")
     print(accuracy_score(y_test, y_pred))
     
